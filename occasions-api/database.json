@@ -1,0 +1,45 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "userName": "info",
+            "userEmail": "info",
+            "location": "info"
+        }
+    ],
+    "profiles": [
+        {
+            "id": 1,
+            "firstName": "info",
+            "lastName": "info",
+            "userName": "info",
+            "image": "pic",
+            "location": "nashville",
+            "userId": 1
+        }
+    ],
+    "occasions": [
+        {
+            "id": 1,
+            "name": "info",
+            "discription": "info",
+            "startDate": "info",
+            "location": "info",
+            "cost": "info",
+            "compliant": "info",
+            "userName": 1
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Nashville North",
+            "address": "8422 Johnson Pike"
+        },
+        {
+            "id": 2,
+            "name": "Nashville South",
+            "address": "209 Emory Drive"
+        }
+    ]
+}
