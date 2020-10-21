@@ -1,0 +1,21 @@
+.attendee  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+  .attendee {
+    flex-basis: 15%;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid goldenrod;
+}
+
+.attendeeForm {
+  padding: 8em;
+  max-width: 60%;
+}
+
+  .closeButton {
+   margin-left: 34em;
+ }

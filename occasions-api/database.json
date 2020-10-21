@@ -1,45 +1,87 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "userName": "info",
-            "userEmail": "info",
-            "location": "info"
-        }
-    ],
-    "profiles": [
-        {
-            "id": 1,
-            "firstName": "info",
-            "lastName": "info",
-            "userName": "info",
-            "image": "pic",
-            "location": "nashville",
-            "userId": 1
-        }
-    ],
-    "occasions": [
-        {
-            "id": 1,
-            "name": "info",
-            "discription": "info",
-            "startDate": "info",
-            "location": "info",
-            "cost": "info",
-            "compliant": "info",
-            "userName": 1
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "userName": "info",
+      "userEmail": "info"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "firstName": "info",
+      "lastName": "info",
+      "userName": "info",
+      "image": "pic",
+      "locationId": "nashville",
+      "userId": 1
+    }
+  ],
+  "occasions": [
+    {
+      "name": "Open Mike Night",
+      "date": "2020-10-31",
+      "location": "Nashville",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "name": "Jazz on the Lawn",
+      "date": "2020-11-07",
+      "location": "Clarksville",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "name": "Family Fued",
+      "date": "2020-11-03",
+      "location": "Clarksville",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "name": "Salsa Dancing",
+      "date": "2020-11-11",
+      "location": "Nashville",
+      "userId": 1,
+      "id": 5
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "occasionId": 1,
+      "userId": 1,
+      "comments": "info",
+      "rating": 1
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "userId": 1,
+      "userName": "info"
+    },
+    {
+      "message": "wassup",
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "location": [
+    {
+      "id": 1,
+      "occasionId": 1,
+      "userId": 1
+    }
+  ],
+  "attending": [
+    {
+      "id": 1,
+      "date": "info",
+      "occasionName": "info",
+      "userId": 1,
+      "userName": "info"
+    }
+  ]
 }
